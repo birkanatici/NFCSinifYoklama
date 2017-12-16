@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/faboptions_favorite"
+        android:icon="@drawable/delete_icon"
+        android:title="Favorite" />
+
+    <item
+        android:id="@+id/faboptions_textsms"
+        android:icon="@drawable/book_icon"
+        android:title="Message" />
+
+    <item
+        android:id="@+id/faboptions_download"
+        android:icon="@drawable/student_icon"
+        android:title="Download" />
+
+</menu>

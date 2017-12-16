@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ogr_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ogr_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:longClickable="true"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <ImageView
+            android:id="@+id/ogr_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_weight="0.2"
+            android:padding="5dp"
+            app:srcCompat="@drawable/student_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/ogr_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="false"
+                android:gravity="bottom"
+                android:paddingLeft="5dp"
+                android:text="Name Surname"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ogr_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:cursorVisible="false"
+                android:gravity="top"
+                android:paddingLeft="5dp"
+                android:text="130201000"
+                android:textSize="12sp"
+                tools:ignore="TextViewEdits" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

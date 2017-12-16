@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00798c</color>
+    <color name="colorPrimaryDark">#006f89</color>
+    <color name="colorAccent">#d1495b</color>
+
+    <color name="ders_item_1">#2500798c</color>
+    <color name="ders_item_2">#0e00798c</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="colour_highlight_grey">#ff666666</color>
+    <color name="colour_dark_blue">#ff000066</color>
+    <color name="colour_dark_green">#ff006600</color>
+
+
+    <drawable name="focused">#ff5500</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+</resources>
